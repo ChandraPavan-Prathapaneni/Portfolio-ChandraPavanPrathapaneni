@@ -324,6 +324,7 @@ section {
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
+  padding: 20px 10px ;
 }
 
 .section-container {
@@ -449,4 +450,28 @@ footer {
 
 footer p {
   text-align: center;
+}
+:root {
+  --pastel-pink: #f8bbd0;
+  --pastel-blue: #a7c7e7;
+  --pastel-green: #b2dfdb;
+  --pastel-lavender: #9268e0;
+  --pastel-peach: #ffe0b2;
+  --text-color: #4a4a4a;
+}
+
+body {
+  background-color: var(--pastel-peach);
+  color: var(--text-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--pastel-lavender);
+}
+
+p, a, li {
+  color: var(--text-color);
+}
+.experience-sub-title{
+  color: var(--pastel-lavender);
 }
