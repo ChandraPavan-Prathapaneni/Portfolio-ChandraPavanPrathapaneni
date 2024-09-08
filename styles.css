@@ -46,7 +46,7 @@ nav {
 }
 
 a {
-  color: black;
+  color: rgb(194, 194, 194);
   text-decoration: none;
   text-decoration-color: white;
 }
@@ -269,7 +269,7 @@ section {
 }
 
 .btn-color-1:hover {
-  background: rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
 }
 
 .btn-color-2 {
@@ -321,7 +321,7 @@ section {
   flex: 1;
   background: white;
   border-radius: 2rem;
-  border: rgb(53, 53, 53) 0.1rem solid;
+  border: rgb(175, 175, 175) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
   padding: 20px 10px ;
@@ -341,7 +341,7 @@ section {
 }
 
 .experience-sub-title {
-  color: rgb(85, 85, 85);
+  color: rgb(255, 255, 255);
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 2rem;
@@ -397,7 +397,7 @@ article .icon {
 }
 
 .project-btn {
-  color: black;
+  color: rgb(255, 255, 255);
   border-color: rgb(163, 163, 163);
 }
 
@@ -459,7 +459,7 @@ footer p {
   --pastel-blue: #a7c7e7;
   --pastel-green: #b2dfdb;
   --pastel-lavender: #9268e0;
-  --pastel-peach: #ffe0b2;
+  --pastel-peach: #000000;
   --text-color: #4a4a4a;
 }
 
