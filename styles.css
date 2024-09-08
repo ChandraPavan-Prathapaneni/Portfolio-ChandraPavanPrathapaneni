@@ -48,7 +48,7 @@ nav {
 a {
   color: rgb(194, 194, 194);
   text-decoration: none;
-  text-decoration-color: white;
+  text-decoration-color: rgb(214, 214, 214);
 }
 
 a:hover {
@@ -96,7 +96,7 @@ a:hover {
   position: absolute;
   top: 100%;
   right: 0;
-  background-color: white;
+  background-color: rgb(214, 214, 214);
   width: fit-content;
   max-height: 0;
   overflow: hidden;
@@ -170,8 +170,8 @@ section {
 
 .section__pic-container {
   display: flex;
-  height: 400px;
-  width: 400px;
+  height: 800px;
+  width: 600px;
   margin: auto 0;
   justify-content: center;
   align-self: center;
@@ -180,8 +180,8 @@ section {
 .section__pic-container img{
     border-radius: 50%;
     width: 100%; /* Adjust as needed based on container */
-    max-width: 400px; /* Maximum size */
-    max-height: 400px;
+    max-width: 500px; /* Maximum size */
+    max-height: 500px;
     aspect-ratio: 1 / 1; /* Ensures the image is square */
     border-radius: 100%; /* Makes the image circular */
     object-fit: cover; /* Ensures the image covers the container */
@@ -234,6 +234,7 @@ section {
 .icon {
   cursor: pointer;
   height: 2rem;
+  color: #9268e0;
 }
 
 /* BUTTONS */
@@ -242,6 +243,8 @@ section {
   display: flex;
   justify-content: center;
   gap: 1rem;
+  color:aliceblue;
+  
 }
 
 .btn {
@@ -255,21 +258,19 @@ section {
 .btn-color-1,
 .btn-color-2 {
   border: rgb(53, 53, 53) 0.1rem solid;
+  background-color: var(--pastel-lavender);
+  color: white;
 }
 
 .btn-color-1:hover,
 .btn-color-2:hover {
   cursor: pointer;
-}
-
-.btn-color-1,
-.btn-color-2:hover {
-  background: rgb(53, 53, 53);
   color: white;
+  background-color: var(--pastel-lavender);
 }
 
 .btn-color-1:hover {
-  background: rgb(255, 255, 255);
+  background: rgb(214, 214, 214);
 }
 
 .btn-color-2 {
@@ -319,7 +320,7 @@ section {
 .details-container {
   
   flex: 1;
-  background: white;
+  background: rgb(221, 221, 221);
   border-radius: 2rem;
   border: rgb(175, 175, 175) 0.1rem solid;
   border-color: rgb(163, 163, 163);
@@ -382,7 +383,7 @@ article .icon {
 
 .color-container {
   border-color: rgb(163, 163, 163);
-  background: rgb(250, 250, 250);
+  background: rgb(228, 228, 228);
 }
 
 .project-img {
@@ -397,7 +398,7 @@ article .icon {
 }
 
 .project-btn {
-  color: rgb(255, 255, 255);
+  color: rgb(192, 192, 192);
   border-color: rgb(163, 163, 163);
 }
 
@@ -459,7 +460,7 @@ footer p {
   --pastel-blue: #a7c7e7;
   --pastel-green: #b2dfdb;
   --pastel-lavender: #9268e0;
-  --pastel-peach: #292929a9;
+  --pastel-peach: #0a0a0a;
   --text-color: #c0c0c0;
 }
 
